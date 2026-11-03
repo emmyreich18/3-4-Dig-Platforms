@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My coffee orders – data sketch</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.0.3/lib/p5.min.js"></script>
+  <script src="sketch.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 32px;
+      background: #f3f5f4;
+      color: #2b1810;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+    }
+    main { max-width: 1000px; margin: 0 auto; }
+    h1 { font-size: 2rem; margin: 0 0 8px; }
+    h2 { font-size: 1.3rem; margin-top: 40px; }
+    p, li { max-width: 70ch; }
+    canvas { display: block; max-width: 100%; height: auto; border-radius: 8px; }
+    #drawing { max-width: 100%; border: 1px solid #c9c2bb; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>My coffee orders</h1>
+    <p>Each cup below is one coffee I bought, seen from above, in the order I bought them.</p>
+
+    <div id="sketch"></div>
+
+    <h2>How to read the sketch</h2>
+    <ul>
+      <li><strong>Position:</strong> the order I bought the drinks, left to right, then top to bottom.</li>
+      <li><strong>Color of the coffee:</strong> the type of coffee, from darkest (espresso) to lightest (latte).</li>
+      <li><strong>Foam ring:</strong> the milk. White is whole milk, tan is oat, pink is almond. No ring means black coffee.</li>
+      <li><strong>Shape in the middle:</strong> the flavor. Circle is vanilla, triangle is caramel, square is mocha. No shape means no flavor.</li>
+      <li><strong>Cup size:</strong> small, medium or large.</li>
+    </ul>
+
+</body>
+</html>

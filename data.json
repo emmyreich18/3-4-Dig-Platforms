@@ -1,0 +1,12 @@
+{
+  "drinks": [
+    { "coffee": "latte",      "milk": "oat",    "flavor": "vanilla", "size": "medium" },
+    { "coffee": "cold brew",  "milk": "none",   "flavor": "none",    "size": "large"  },
+    { "coffee": "espresso",   "milk": "none",   "flavor": "none",    "size": "small"  },
+    { "coffee": "cappuccino", "milk": "whole",  "flavor": "caramel", "size": "medium" },
+    { "coffee": "latte",      "milk": "almond", "flavor": "mocha",   "size": "large"  },
+    { "coffee": "americano",  "milk": "whole",  "flavor": "none",    "size": "medium" },
+    { "coffee": "cold brew",  "milk": "oat",    "flavor": "caramel", "size": "large"  },
+    { "coffee": "latte",      "milk": "oat",    "flavor": "vanilla", "size": "small"  }
+  ]
+}
